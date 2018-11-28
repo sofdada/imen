@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE application PUBLIC
+	"-//Sun Microsystems, Inc.//DTD J2EE Application 1.3//EN"
+	"http://java.sun.com/dtd/application_1_3.dtd">
+<application>
+  <display-name>demo5555-ear</display-name>
+  <module id="EJB_tn.cni.td.demo5555-service">
+    <ejb>demo5555-service.jar</ejb>
+  </module>
+  <module id="WAR_tn.cni.td.demo5555-web">
+    <web>
+      <web-uri>demo5555-web.war</web-uri>
+      <context-root>demo5555-web</context-root>
+    </web>
+  </module>
+</application>
